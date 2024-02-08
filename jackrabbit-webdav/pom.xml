@@ -106,4 +106,12 @@
       <version>1.4.8</version>
     </dependency>
   </dependencies>
+  
+  <scm>
+    <developerConnection>scm:git:ssh://git@github.com/1and1/jackrabbit.git</developerConnection>
+    <connection>scm:git:ssh://git@github.com/1and1/jackrabbit.git</connection>
+    <url>https://github.com/1and1/</url>
+    <tag>HEAD</tag>
+  </scm>
+  
 </project>
