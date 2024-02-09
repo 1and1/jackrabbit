@@ -180,7 +180,7 @@
                         <executions>
                             <execution>
                                 <id>sign-artifacts</id>
-                                <phase>verify</phase>
+                                <phase>test</phase>
                                 <goals>
                                     <goal>sign</goal>
                                 </goals>
@@ -210,6 +210,19 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-  
+    
+    <developers>
+        <developer>
+            <id>danielgrigore</id>
+            <name>Daniel Grigore</name>
+            <organization>1 &amp; 1 Internet AG</organization>
+            <organizationUrl>${project.url}</organizationUrl>
+            <url>https://github.com/danielgrigore</url>
+            <timezone>+1</timezone>
+            <roles>
+                <role>developer</role>                
+            </roles>
+        </developer>
+     </developers>   
   
 </project>
