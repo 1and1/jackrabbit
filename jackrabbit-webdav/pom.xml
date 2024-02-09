@@ -24,7 +24,6 @@
 <!-- P R O J E C T  D E S C R I P T I O N                                   -->
 <!-- ====================================================================== -->
   
-  
   <groupId>net.oneandone</groupId>
   <artifactId>jackrabbit-webdav</artifactId>
   <packaging>jar</packaging>
@@ -50,6 +49,26 @@
           <argLine>${test.opts}</argLine>
         </configuration>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <configuration>
+            <quiet>true</quiet>
+            <links>
+                <link>https://docs.oracle.com/javase/${oneandone.java.docversion}/docs/api/</link>
+                <link>https://junit.org/junit4/javadoc/latest/</link>
+                <link>https://www.slf4j.org/apidocs/</link>
+            </links>
+        </configuration>
+        <executions>
+            <execution>
+                <id>default-jar</id>
+                <goals>
+                    <goal>jar</goal>
+                </goals>
+            </execution>
+        </executions>
+    </plugin>
     </plugins>
   </build>
 
@@ -123,6 +142,9 @@
             <id>sonatype-nexus-staging</id>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
-    </distributionManagement>
+  </distributionManagement>
+  
+  
+  
   
 </project>
