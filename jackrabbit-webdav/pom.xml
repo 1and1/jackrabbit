@@ -27,7 +27,7 @@
   <groupId>net.oneandone</groupId>
   <artifactId>jackrabbit-webdav</artifactId>
   <packaging>jar</packaging>
-  <version>3.0.2-SNAPSHOT</version>
+  <version>3.0.2</version>
   <name>Jackrabbit WebDAV Library</name>
   <description>Generic WebDAV Library</description>
   
@@ -130,7 +130,7 @@
     <developerConnection>scm:git:ssh://git@github.com/1and1/jackrabbit.git</developerConnection>
     <connection>scm:git:ssh://git@github.com/1and1/jackrabbit.git</connection>
     <url>https://github.com/1and1/</url>
-    <tag>HEAD</tag>
+    <tag>jackrabbit-webdav-3.0.2</tag>
   </scm>
   
   <distributionManagement>
