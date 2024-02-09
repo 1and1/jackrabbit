@@ -27,7 +27,7 @@
   <groupId>net.oneandone</groupId>
   <artifactId>jackrabbit-webdav</artifactId>
   <packaging>jar</packaging>
-  <version>3.0.3</version>
+  <version>3.0.4-SNAPSHOT</version>
   <name>Jackrabbit WebDAV Library</name>
   <description>Generic WebDAV Library</description>
   <url>http://1and1.github.io/foss-parent</url>
@@ -149,7 +149,7 @@
     <developerConnection>scm:git:ssh://git@github.com/1and1/jackrabbit.git</developerConnection>
     <connection>scm:git:ssh://git@github.com/1and1/jackrabbit.git</connection>
     <url>https://github.com/1and1/</url>
-    <tag>jackrabbit-webdav-3.0.3</tag>
+    <tag>HEAD</tag>
   </scm>
   
   <distributionManagement>
